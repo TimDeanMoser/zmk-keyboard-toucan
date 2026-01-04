@@ -86,9 +86,9 @@
         num {
             display-name = "NUM";
             bindings = <
-                &trans &kp LBKT     &kp N7    &kp N8    &kp N9    &kp RBKT        &trans    &trans     &trans     &trans    &trans    &trans
-                &trans &kp LS(N1)   &kp N4    &kp N5    &kp N6    &kp LS(N3)      &trans    &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
-                &trans &kp LS(EQUAL) &kp N1    &kp N2    &kp N3    &kp LS(N7)      &trans    &trans     &trans     &trans    &trans    &trans
+                &trans &kp RA(LBKT) &kp N7    &kp N8    &kp N9    &kp RA(RBKT)    &trans    &trans     &trans     &trans    &trans    &trans
+                &trans &kp RBKT     &kp N4    &kp N5    &kp N6    &kp LS(N0)      &trans    &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
+                &trans &kp RA(GRAVE) &kp N1    &kp N2    &kp N3    &kp RA(NUBS)    &trans    &trans     &trans     &trans    &trans    &trans
                                            &kp DOT   &kp N0    &kp FSLH        &trans    &trans     &trans
             >;
         };
@@ -96,9 +96,9 @@
         sym {
             display-name = "SYM";
             bindings = <
-                &trans &kp RA(LBKT) &kp LS(N6) &kp LS(RBKT) &kp LS(N8) &kp RA(RBKT)    &trans    &trans     &trans     &trans    &trans    &trans
-                &trans &kp NUBS     &kp LS(N4) &kp LS(N5)   &kp LS(EQUAL) &kp LS(NUBS) &trans    &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
-                &trans &kp RA(EQUAL) &kp LS(RBKT) &kp RA(N2) &kp LS(N3) &kp RA(N7)     &trans    &trans     &trans     &trans    &trans    &trans
+                &trans &kp RA(SQT)  &kp LS(N6) &kp LS(N3)   &kp LS(N8) &kp RA(BSLH)    &trans    &trans     &trans     &trans    &trans    &trans
+                &trans &kp NUBS     &kp RA(N2) &kp LS(N5)   &kp LS(GRAVE) &kp LS(NUBS) &trans    &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
+                &trans &kp RA(N)    &kp RA(RBKT) &kp RA(N2) &kp N3      &kp RA(N7)     &trans    &trans     &trans     &trans    &trans    &trans
                                            &kp LS(N8) &kp LS(N9) &kp LS(FSLH)            &trans    &trans     &trans
             >;
         };
