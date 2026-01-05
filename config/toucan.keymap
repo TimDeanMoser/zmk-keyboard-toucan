@@ -57,7 +57,7 @@
             display-name = "NAV";
             bindings = <
                 &trans &trans    &trans    &trans     &trans     &trans       &kp K_REDO &kp K_PASTE &kp K_COPY &kp K_CUT  &kp K_UNDO &trans
-                &trans &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans       &kp CAPS   &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT  &trans
+                &trans &kp LG(LEFT)  &kp LG(LA(LEFT))  &kp LG(LA(RIGHT))  &kp LG(RIGHT)  &trans       &kp CAPS   &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT  &trans
                 &trans &trans    &trans    &trans     &trans     &trans       &kp INS    &kp HOME    &kp PG_DN  &kp PG_UP  &kp END    &trans
                                            &trans     &trans     &trans       &kp RET    &kp BSPC    &kp DEL
             >;
@@ -87,7 +87,7 @@
             display-name = "NUM";
             bindings = <
                 &trans &kp RA(N5)    &kp N7    &kp N8    &kp N9    &kp RA(N6)      &trans    &trans     &trans     &trans    &trans    &trans
-                &trans &kp RBKT      &kp N4    &kp N5    &kp N6    &kp LS(N0)        &trans    &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
+                &trans &kp LS(N1)      &kp N4    &kp N5    &kp N6    &kp LS(N0)        &trans    &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
                 &trans &kp LS(EQUAL) &kp N1    &kp N2    &kp N3    &kp RA(LS(N7))    &trans    &trans     &trans     &trans    &trans    &trans
                                            &kp DOT   &kp N0    &kp FSLH        &trans    &trans     &trans
             >;
